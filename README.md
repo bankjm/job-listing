@@ -1,3 +1,0 @@
-# README
-
-FirstWeek Homework

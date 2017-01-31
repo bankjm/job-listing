@@ -1,5 +1,5 @@
 <div class="pull-right">
-  <%= link_to("Add a job", new_post_path, :class => "btn btn-default" ) %>
+  <%= link_to("Add a job", new_group_post_path, :class => "btn btn-default" ) %>
 </div>
 
 <br><br>
@@ -8,11 +8,11 @@
   <% @groups.each do |group| %>
   <tr>
     <td>
-      <%= link_to(group.title, post_path(group)) %>
+      <%= link_to(group.title, group_post_path(group)) %>
     </td>
     <td>
-      <%= link_to("Edit", edit_post_path(job)) %>
-      <%= link_to("Destroy", post_path(job), :method => :delete, :data => { :confirm => "Are you sure?" }) %>
+      <%= link_to("Edit", edit_group_post_path(job)) %>
+      <%= link_to("Destroy", group_post_path(job), :method => :delete, :data => { :confirm => "Are you sure?" }) %>
     </td>
     <td>
       <%= group.created_at %>

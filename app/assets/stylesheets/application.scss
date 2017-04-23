@@ -72,7 +72,7 @@
       margin-bottom: 50px;
 
       .box-inner {
-          background-color: rgba(250, 250, 250, 0.69);
+          background-color: rgba(250, 250, 250, 0.20);
           padding-bottom: 5px;
           margin-top: 150px;
           margin-bottom: 150px;
@@ -97,6 +97,11 @@
           text-align: center;
           color: white;
       }
+  }
+
+  //--------Grid---------
+  .container {
+    padding: 80px 120px;
   }
 
   //--------thumbnail--------

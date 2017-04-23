@@ -116,17 +116,52 @@
   }
 
   //--------thumbnail--------
+  /* Remove rounded borders form list */
+  .list-group-item:first-child {
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+
+  .list-group-item:last-child {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+
+  /* Remove border and add padding to thumbnail */
+  .thumbnail {
+    padding: 0 0 15px 0;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    margin-top: 60px;
+  }
+
+  .thumbnail p {
+    margin-top: 15px;
+    color: #555;
+  }
+
+  .btn {
+    padding:10px 20px;
+    border-radius: 0;
+    background-color: #F0AD4E;
+    color: white;
+    transition: .2s;
+  }
+
+  .btn:hover, .btn:focus {
+    border: 1px solid #333;
+    background-color: #fff;
+    color: #000;
+  }
+
   .caption {
     margin: 30px;
     text-align: center;
     top: 20px;
   }
 
-  .thumbnail {
-      border: 0 none;
-      box-shadow: none;
-      margin-top: 60px;
-  }
+
 
  //--------Content--------
 

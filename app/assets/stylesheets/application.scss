@@ -66,26 +66,30 @@
   //--------Box--------
 
   .box {
-      background-image: url("http://ww1.sinaimg.cn/large/006tNc79gy1fev8csi69wj31hc0xsdyl.jpg");
+      background-image: url("header.jpg");
       background-repeat: no-repeat;
       background-size: cover;
       margin-bottom: 10px;
 
       .box-inner {
-          background-color: rgba(250, 250, 250, 0.20);
-          padding-bottom: 5px;
-          margin-top: 150px;
-          margin-bottom: 150px;
+          background-color: rgba(250, 250, 250, 0.10);
+
+          padding: 100px 5px 40px;
       }
 
       .title1 {
           text-align: left;
           margin-bottom: 300px;
+          font-size: 80px;
+          color: #FFE0B2;
+
       }
 
       .title2 {
           text-align: right;
           margin-bottom: 200px;
+          font-size: 60px;
+          color: #EF6C00;
       }
 
       .slogan {
@@ -98,9 +102,11 @@
       }
 
       .lead {
-          margin-bottom: 60px;
+          margin-top: auto;
+          margin-bottom: 200px;
           text-align: center;
           color: white;
+          font-size-adjust: auto;
       }
   }
 
